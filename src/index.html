@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: calc(1.5rem + 1vw);
+        }
+        button {
+            padding: 0.5rem 1rem;
+            font-size: calc(1rem + 0.5vw);
+            margin: 0.5rem;
+            border-radius: 7px;
+            border: none;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: calc(1.2rem + 0.5vw);
+            }
+            button {
+                font-size: calc(0.8rem + 0.5vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Pay P 3,428?</h1>
+    <div>
+        <button>Send Payment</button>
+        <button>Cancel</button>
+    </div>
+</body>
+</html>
